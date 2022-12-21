@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {background : white;
+    
+}
+header {
+  background-color: white;
+  padding-top: -20px;
+  padding-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color: rgb(255, 0, 4);
+    font-family: 'Limelight', cursive;
+}
+#rabbit {
+  display: block;
+  margin: -25px 10px 5px 80px;
+  width: 10%;
+  height: 10%;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#bar {
+    background-color: darkred;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: right;
+    display: block;
+}
+li {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}
+li a {
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+li a:hover {
+    background-color: orangered;
+}
+.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+form {
+    text-align: center;
+    text-decoration: bold;
+    font-size: 25px;
+}
+input {
+    border: 2px solid rgb(157, 159, 24);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 8px 25px;
+}
+#generator {
+    background-color: rgb(173, 47, 47);
+    padding: 5px 15px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white 
+}
+.button {
+    text-align: center;
+}
+#main  {
+    text-align: center;
+    font-size: 18px;
+    
+}
+#main a {
+    color:crimson;  
+}
+/* Code for "regular" computer screens */
+
+/*------------------------------------*\
+    $SMALL COMPUTER SCREENS
+\*------------------------------------*/
+@media all and (max-width: 1234px) {
+    body {  background : white;
+    } 
+    header {background : white;
+    }
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        color: rgb(231, 12, 45);
+        font-size:2em;
+        background : white;
+        text-align: center;
+    }
+    #rabbit {
+      float: left;
+      margin: -35px 0px 20px 50px;
+      border-radius: 10px 100px / 120px;
+      width: 9%;
+      
+      } 
+      #bar {
+        background-color: darkred;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    li {
+        color: white;
+        
+        font-size: 20px;
+    }
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        text-align: right;
+        text-align: center;
+    }
+    .image img {
+        width: 50%;
+        height: 50%;
+        margin-top: 50px;
+        border-radius: 50%;
+    }
+    form {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+     #generator {
+        font-size: 15px;
+     }
+
+}  
+
+
+/*------------------------------------*\
+    $IPAD AND TABLET
+\*------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+body {  background : rgb(213, 189, 52);
+    } 
+    header {
+        background : rgb(213, 189, 52)
+    }
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        color: rgb(17, 68, 179);
+        font-size:25px;
+        background : rgb(213, 189, 52)
+    }
+    #rabbit {
+      float: left;
+      margin: -20px 10px 5px 5px;
+      border-radius: 10px 100px / 120px;
+      
+      } 
+      #bar {
+        background-color: darkred;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    li {
+        color: white;
+        
+        font-size: 18px;
+    }
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        text-align: right;
+        text-align: center;
+    }
+    .image img {
+        width: 50%;
+        height: 50%;
+        margin-top: 50px;
+        border-radius: 50%;
+    }
+    form {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+     #generator {
+        font-size: 15px;
+     }
+
+} 
+
+/*------------------------------------*\
+    $IPHONE 4S LANDSCAPE
+\*------------------------------------*/
+
+@media only screen and (max-width : 480px) {
+body {  background : rgb(52, 213, 175);
+    } 
+    header {
+        background : rgb(52, 213, 175);
+    }
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        color: rgb(17, 68, 179);
+        font-size:25px;
+        background : rgb(52, 213, 175);
+    }
+    #rabbit {
+      float: left;
+      margin: -10px 5px 5px 5px;
+      border-radius: 10px 100px / 120px;
+      
+      } 
+      #bar {
+        background-color: darkred;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    li {
+        color: white;
+        
+        font-size: 18px;
+    }
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        text-align: right;
+        text-align: center;
+    }
+    .image img {
+        width: 70%;
+        height: 50%;
+        margin-top: 100px;
+        border-radius: 50%;
+    }
+    form {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+     #generator {
+        font-size: 15px;
+     }
+
+}
+
+/*------------------------------------*\
+    $IHPONE 4S
+\*------------------------------------*/
+
+@media only screen and (max-width : 320px) {
+body {  background : rgb(214, 182, 219);
+    } 
+    header {
+        background : rgb(214, 182, 219);
+    }
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        color: rgb(168, 61, 61);
+        font-size:20px;
+        background : rgb(214, 182, 219);
+    }
+    #rabbit {
+      float: left;
+      margin: 4px 5px 5px 5px;
+      border-radius: 10px 100px / 120px;
+      
+      } 
+      #bar {
+        background-color: darkred;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    li {
+        color: white;
+        
+        font-size: 10px;
+    }
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        text-align: right;
+        text-align: center;
+    }
+    .image img {
+        width: 70%;
+        height: 50%;
+        margin-top: 80px;
+        border-radius: 50%;
+    }
+    form {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+     #generator {
+        font-size: 15px;
+     }
+
+} 
+
